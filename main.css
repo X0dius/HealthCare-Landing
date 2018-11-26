@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+
+body, html{
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right, #ACEDFF, #89BBFE);
+    overflow: hidden;
+    font-size: 40px;
+    height: 100%;
+    
+}
+
+.main {
+    height: 100%;
+    color: white;
+}
+
+#navSide.sidebar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6F8AB7;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px
+}
+
+
+#navSide.siderbar > a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #615D6C;
+    display: block;
+    transition: 0.3s;
+}
+
+#navSide.siderbar > a:hover {
+    color: rgb(75, 72, 83);
+}
+
+.main {
+    transition: margin-left .5s;
+    margin: auto;
+}
+
+.header .controller {
+    float: left;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    left: 0px;
+    transition: background 0.6s;
+    border: none;
+}
+
+.controller button.sidebarInteractor {
+    transition: background 0.6s;
+    outline: 0;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: transparent;
+    top: 10px;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.controller .sidebarInteractor:hover {
+    background: rgba(75, 72, 83, 0.233);
+}
+.controller .sidebarInteractor:active {
+    background-color: rgba(75, 72, 83, 0.61);
+}
+
+.header{
+    width: 95%;
+    height: 60px;
+    background-color: transparent;
+    text-align: center;
+    float: left;
+}
+
+.header .controller {
+    height: 100%;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .title {
+    width: 80%;
+    height: 100%;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .Author {
+    font-size: 25px;
+    height: 100%;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.subNav {
+    background-color: blue;
+    min-height: 100%;
+    margin-left: 95%;
+}
+
+
